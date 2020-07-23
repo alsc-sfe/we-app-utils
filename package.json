@@ -1,13 +1,13 @@
 {
-  "name": "@alife/we-app-utils",
+  "name": "@saasfe/we-app-utils",
   "version": "1.0.0",
   "description": "we app utils",
-  "homepage": "http://gitlab.alibaba-inc.com/alsc-materials-group/we-app-utils",
+  "homepage": "https://github.com/alsc-sfe/we-app-utils.git",
   "repository": {
     "type": "git",
-    "url": "http://gitlab.alibaba-inc.com/alsc-materials-group/we-app-utils"
+    "url": "https://github.com/alsc-sfe/we-app-utils.git"
   },
-  "author": "少楚",
+  "author": "zetay",
   "files": [
     "document",
     "src",
@@ -70,6 +70,6 @@
     "lint"
   ],
   "publishConfig": {
-    "registry": "http://registry.npm.alibaba-inc.com"
+    "registry": "https://registry.npmjs.org/"
   }
 }
