@@ -1,4 +1,4 @@
-import { Resource } from '../resource-loader';
+import { Resource } from '@saasfe/we-app-types';
 
 export enum ResourcePreloader {
   prefetch = 'prefetch',

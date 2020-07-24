@@ -67,7 +67,7 @@ export function isAncestorScope(ancestor: HookScope, descendant: HookScope) {
 
 export function makeSafeScope(scope: HookScope): SafeHookScope {
   if (!scope || !scope.product) {
-    return;
+    return {};
   }
 
   const { page, app, product } = scope;
