@@ -6,3 +6,4 @@ export * from './preload';
 export * from './route';
 export * from './scope';
 export * from './resource-loader';
+export * from './element';
