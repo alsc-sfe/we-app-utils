@@ -1,6 +1,6 @@
 {
   "name": "@saasfe/we-app-utils",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "description": "we app utils",
   "homepage": "https://github.com/alsc-sfe/we-app-utils.git",
   "repository": {
@@ -32,6 +32,7 @@
   "dependencies": {
     "@saasfe/we-app-types": "beta",
     "lodash-es": "^4.17.15",
+    "path-to-regexp": "^3.2.0",
     "tslib": "1"
   },
   "devDependencies": {
