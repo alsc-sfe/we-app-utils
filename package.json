@@ -1,6 +1,6 @@
 {
   "name": "@saasfe/we-app-utils",
-  "version": "1.0.0-beta.4",
+  "version": "1.0.0",
   "description": "we app utils",
   "homepage": "https://github.com/alsc-sfe/we-app-utils.git",
   "repository": {
@@ -30,7 +30,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "dependencies": {
-    "@saasfe/we-app-types": "beta",
+    "@saasfe/we-app-types": "^1.0.0",
     "lodash-es": "^4.17.15",
     "path-to-regexp": "^3.2.0",
     "tslib": "1"
