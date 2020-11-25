@@ -1,0 +1,79 @@
+{
+  "name": "@saasfe/we-app-utils",
+  "version": "1.0.0",
+  "description": "we app utils",
+  "homepage": "https://github.com/alsc-sfe/we-app-utils.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alsc-sfe/we-app-utils.git"
+  },
+  "author": "zetay",
+  "files": [
+    "document",
+    "src",
+    "lib",
+    "es",
+    "_gitignore",
+    ".gitignore",
+    ".babelrc",
+    ".eslintignore",
+    ".eslintrc",
+    ".stylelintignore",
+    ".stylelintrc",
+    "abc.json",
+    "app.config.ts",
+    "package.json",
+    "README.md",
+    "tsconfig.json"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "dependencies": {
+    "@saasfe/we-app-types": "^1.0.0",
+    "lodash-es": "^4.17.15",
+    "path-to-regexp": "^3.2.0",
+    "tslib": "1"
+  },
+  "devDependencies": {
+    "@types/classnames": "2",
+    "@types/lodash-es": "^4.17.3",
+    "@types/react": "16",
+    "@types/react-dom": "16",
+    "@typescript-eslint/eslint-plugin": "1",
+    "@typescript-eslint/parser": "1",
+    "classnames": "2",
+    "copyfiles": "2",
+    "cross-env": "5",
+    "eslint": "5",
+    "eslint-config-ali": "7",
+    "eslint-plugin-import": "2",
+    "eslint-plugin-react": "7",
+    "eslint-plugin-react-hooks": "1",
+    "lesshint": "2",
+    "pre-commit": "1",
+    "prop-types": "15",
+    "react": "16",
+    "react-dom": "16",
+    "rimraf": "2",
+    "stylelint": "7",
+    "stylelint-config-standard": "16",
+    "typescript": "3"
+  },
+  "peerDependencies": {
+    "classnames": ">=2.0.0",
+    "prop-types": ">=15.0.0",
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "scripts": {
+    "lint": "npm run tslint",
+    "tslint": "eslint ./src --ext '.ts,.tsx,.js,.jsx' --fix"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
